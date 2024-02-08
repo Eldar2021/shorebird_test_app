@@ -3,14 +3,35 @@
 A new Flutter project.
 
 ## Getting Started
+- Create flutter project
+- Check shorebird CLI
+  `shorebird doctor`
+- If CLI found with some problems
+  `shorebird doctor --fix`
+- Check shorebird account
+  `shorebird login`
+- If you want logout run
+  `shorebird logout`
+- Init Shorebird
+  `shorebird init`
+- Check Internet permission in android folder
+  `<uses-permission android:name="android.permission.INTERNET"/>`
+- Check
+  - ✅ A shorebird app has been created.
+  - ✅ A "shorebird.yaml" has been created.
+  - ✅ The "pubspec.yaml" has been updated to include "shorebird.yaml" as an asset.
 
-This project is a starting point for a Flutter application.
+  Reference the following commands to get started:
 
-A few resources to get you started if this is your first Flutter project:
+  📦 To create a new release use: "shorebird release".
+  🚀 To push an update use: "shorebird patch".
+  👀 To preview a release use: "shorebird preview".
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  ✓ Shorebird is up-to-date (1.7s)
+  ✗ Flutter install is correct (0.5s)
+    [!] The version of Flutter that Shorebird includes and the Flutter on your path are different.
+          Shorebird Flutter: 3.16.9
+          System Flutter:    3.13.6
+  This can cause unexpected behavior if you are switching between the tools and the version gap is wide. If you have any trouble, please let us know on Shorebird discord.
+  ✓ AndroidManifest.xml files contain INTERNET permission (35ms)
+  ✓ Has access to storage.googleapis.com (0.4s)
