@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepPurple,
+          seedColor: Colors.green,
         ),
         useMaterial3: true,
       ),
@@ -30,14 +30,14 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounter() => _counter++;
+  void _incrementCounter() => setState(() => _counter++);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Flutter Shorebird'),
+        title: const Text('Flutter Shorebird 03'),
       ),
       body: Center(
         child: Column(
